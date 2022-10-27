@@ -14,7 +14,7 @@ const Heroo = () => {
         <Hero>
             <Container>
                 <Left>
-                    <Heading css={{ "fontSize": "3.3rem" }}>Grab The Site</Heading>
+                    <Heading css={{ "fontSize": "3.3rem" }}>GrabTheSite</Heading>
                     <Paragraph css={paragrapgStyle}>Your Digital Dream Is Our Next To Do</Paragraph>
                 </Left>
                 <Right><ContactForm css={{"width":"100%"}}/></Right>
