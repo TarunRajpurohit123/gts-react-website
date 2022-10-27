@@ -1,0 +1,7 @@
+.stroke{
+    font-size: 9.5vw;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--pure);
+
+    color: var(--primaryBackground);
+}

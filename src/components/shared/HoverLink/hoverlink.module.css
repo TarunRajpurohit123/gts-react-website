@@ -1,0 +1,32 @@
+.hoverlink{
+    text-decoration: none;
+    margin-top: 10rem;
+    position: relative;
+    color:var(--pure)
+}
+.hoverlink::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    top: 2rem;
+    background: var(--primary);
+    transition: width 0.5s;
+}
+.hoverlink:hover::before{
+    width: 100%;
+}
+.contactBtn{
+    background:var(--primary);
+    text-decoration: none;
+    margin-top: 10rem;
+    color:var(--pure);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border-radius: 10rem;
+}
+.contactBtn:hover{
+    box-shadow: var(--primary) 0px 0px 15px 0px;
+}

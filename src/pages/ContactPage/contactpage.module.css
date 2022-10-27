@@ -1,0 +1,47 @@
+.gradientMagic {
+    width: 7rem;
+    height: 7rem;
+    background: linear-gradient(90deg, rgba(45,170,226,1) 35%, rgba(149,53,142,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    left: 40rem;
+    animation-name: rrr;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.2s;
+}
+.gradientMagic::before {
+    content: '';
+    width: 22rem;
+    height: 22rem;
+    background: linear-gradient(90deg, rgba(45,170,226,1) 35%, rgba(149,53,142,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 19rem;
+    left: 19rem;
+}
+@keyframes rrr{
+   0%{
+      left: 40rem;
+   }
+   50%{
+    left: 40.5rem;
+   }
+   100%{
+    left: 40rem;
+   }
+}
+.gradientMagic::after {
+    /* content: ""; */
+    width: 16rem;
+    height: 16rem;
+    background: linear-gradient(90deg, rgba(45,170,226,1) 35%, rgba(149,53,142,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 9rem;
+    left: 8rem;
+}
+.socials:hover{
+    border-bottom:1px solid white;
+}
